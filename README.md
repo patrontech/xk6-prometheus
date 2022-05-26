@@ -22,7 +22,7 @@ Then:
 
 2. Build the binary:
   ```bash
-  $ xk6 build --with github.com/szkiba/xk6-prometheus@latest
+  $ xk6 build --with github.com/patrontech/xk6-prometheus@latest
   ```
 
 > You should use at least `v0.31.0` version because xk6-prometheus extension registers itself as output extension. This feature introduced in the `v0.31.0` version of k6.
